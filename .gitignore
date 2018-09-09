@@ -18,3 +18,5 @@ nohup*
 *.swp
 *.pyc
 script/__pycache__/
+venv
+
