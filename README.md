@@ -3,11 +3,11 @@
 * [Java](src/main/com/libin/program/_01_java)
 * [Scala](src/main/com/libin/program/_02_scala)
 * [Python](src/main/com/libin/program/_03_python)
-* Shell
+* [Shell](src/main/com/libin/program/_04_shell)
 * Sql
 * 正则
 * Git
-* Maven
+* [Maven](src/main/com/libin/program/_08_maven)
 * SVN
 * [JVM](src/main/com/libin/program/_10_jvm)
 * 设计模式
