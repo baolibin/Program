@@ -10,7 +10,8 @@
 
 ### 进程管理
 
-### sed、awk
+### 正则
+* [sed,awk,grep](regular/awk.sh)
 
 ### Shell编程
 
