@@ -11,7 +11,9 @@
 ### 进程管理
 
 ### 正则
-* [sed,awk,grep](regular/awk.sh)
+* [awk](regular/awk.sh)
+* sed
+* grep
 
 ### Shell编程
 
