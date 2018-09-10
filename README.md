@@ -6,7 +6,7 @@
 * [Shell](src/main/com/libin/program/_04_shell)
 * Sql
 * 正则
-* Git
+* [Git](src/main/com/libin/program/_07_git)
 * [Maven](src/main/com/libin/program/_08_maven)
 * SVN
 * [JVM](src/main/com/libin/program/_10_jvm)
