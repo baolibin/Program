@@ -10,7 +10,4 @@
 * [Maven](src/main/com/libin/program/_08_maven)
 * SVN
 * [JVM](src/main/com/libin/program/_10_jvm)
-* 设计模式
-* R
-* Js
-* C
+* [设计模式](src/main/com/libin/program/_11_designPattern)
