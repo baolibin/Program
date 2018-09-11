@@ -1,4 +1,4 @@
-package libin.program._01_java.utils;
+package main.com.libin.program._01_java.utils;
 
 /**
  * Copyright (c) 2018/9/9. xixi Inc. All Rights Reserved.
