@@ -21,6 +21,7 @@
 * [隐式转换类](implicitDemo)
 
 ### 类型参数
+* [类型参数](typeParam)
 
 ### 注解
 
