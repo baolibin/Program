@@ -9,11 +9,11 @@ import scala.util.matching.Regex
   * Purpose : 文法定义中二选一、拼接、选项和重复在Scala组合子解析器中对应 竖线、波浪线、opt和rep
   */
 
-object grammarOp extends RegexParsers{
+/*object grammarOp extends RegexParsers{
   def main(args: Array[String]): Unit = {
 
   }
-}
+}*/
 /*
 object Calculator extends RegexParsers {
   def number: Parser[Double] = """\d+(\.\d*)?""".r ^^ { _.toDouble }
