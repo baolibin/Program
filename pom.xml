@@ -29,6 +29,26 @@
             <artifactId>scala-reflect</artifactId>
             <version>2.12.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scala-lang.modules/scala-parser-combinators -->
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-parser-combinators_2.12</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-actors -->
+        <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-actors -->
+        <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-actors -->
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-actors</artifactId>
+            <version>2.11.12</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_2.12</artifactId>
+            <version>2.5.16</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
         <dependency>
             <groupId>org.scalatest</groupId>
@@ -63,7 +83,7 @@
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <!--<version>${scala.maven.plugin.version}</version>-->
+                <version>3.2.2</version>
                 <executions>
                     <execution>
                         <goals>
@@ -85,8 +105,9 @@
                         <arg>-deprecation</arg>
                         <arg>-feature</arg>
                         <arg>-optimise</arg>
-                        <arg>-target:jvm-1.6</arg>
+                        <arg>-target:jvm-1.8</arg>
                     </args>
+                    <scalaVersion>2.12.0</scalaVersion>
                 </configuration>
             </plugin>
             <!-- maven-compiler-plugin -->
@@ -94,8 +115,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <fork>true</fork>
                     <verbose>true</verbose>
                     <encoding>UTF-8</encoding>
