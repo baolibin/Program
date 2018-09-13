@@ -1,7 +1,7 @@
 package com.libin.program._02_scala.grammarOp
 
-//import scala.util.parsing.combinator._
-//import scala.util.matching.Regex
+import scala.util.parsing.combinator._
+import scala.util.matching.Regex
 /**
   * Copyright (c) 2018/09/13. xixi Inc. All Rights Reserved.
   * Authors: libin <2578858653@qq.com>
@@ -9,11 +9,11 @@ package com.libin.program._02_scala.grammarOp
   * Purpose : 文法定义中二选一、拼接、选项和重复在Scala组合子解析器中对应 竖线、波浪线、opt和rep
   */
 
-/*object grammarOp extends RegexParsers{
+object grammarOp extends RegexParsers{
   def main(args: Array[String]): Unit = {
 
   }
-}*/
+}
 /*
 object Calculator extends RegexParsers {
   def number: Parser[Double] = """\d+(\.\d*)?""".r ^^ { _.toDouble }

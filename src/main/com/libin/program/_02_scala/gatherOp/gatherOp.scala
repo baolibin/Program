@@ -1,4 +1,4 @@
-package main.com.libin.program._02_scala.gatherOp
+package com.libin.program._02_scala.gatherOp
 
 import scala.collection.mutable
 
@@ -35,8 +35,8 @@ object gatherOp {
     val map = Map("c" -> 3, "b" -> 2)
     println(map.mkString("、"))
 
-    val sortedMap = mutable.SortedMap("c" -> 3, "a" -> 1, "b" -> 2)
-    println(sortedMap.mkString("、"))
+    /*val sortedMap = mutable.SortedMap("c" -> 3, "a" -> 1, "b" -> 2)
+    println(sortedMap.mkString("、"))*/
 
     val synchronizedMap = new mutable.HashMap[String, Int] with mutable.SynchronizedMap[String, Int]
     synchronizedMap += "c" -> 3
