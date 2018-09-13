@@ -29,6 +29,13 @@
             <artifactId>scala-reflect</artifactId>
             <version>2.12.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.2.0-SNAP1</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
