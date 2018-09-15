@@ -3,7 +3,8 @@
     - 创建型模式
     - 结构型模式
     - 行为型模式
-
+- [简介-Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns)
+---
 ##### 单例模式
 
 ##### 工厂模式

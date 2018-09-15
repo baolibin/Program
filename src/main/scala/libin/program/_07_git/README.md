@@ -1,7 +1,8 @@
 ## Git
     Git是开源的分布式版本控制系统。
-
-
+- [简介-Wikipedia](https://en.wikipedia.org/wiki/Git)
+- [官网](https://git-scm.com/)
+---
 ##### git stash
     - git stash --help
     - git stash list

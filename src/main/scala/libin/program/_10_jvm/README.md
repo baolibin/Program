@@ -1,6 +1,6 @@
-
 ## Java虚拟机
-
+- [简介-Wikipedia](https://en.wikipedia.org/wiki/Java_virtual_machine)
+---
 ### 自动内存管理机制
 * 运行时数据区域
     - 程序计数器
