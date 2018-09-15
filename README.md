@@ -1,5 +1,6 @@
 
-## 基本技术
+##### 项目开发用到的一些基本技术整理 (~持续更新~)
+
 * [Java](src/main/scala/libin/program/_01_java)
 * [Scala](src/main/scala/libin/program/_02_scala)
 * [Python](src/main/scala/libin/program/_03_python)
