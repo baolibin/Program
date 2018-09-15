@@ -1,14 +1,14 @@
 ##### 项目开发技术工具 (~持续更新~)
     项目开发中会使用各种各样的开发技术和工具,对常用的做个整理(持续更新)...
 
-## 1.编程语言
+##
+##### <font color="blue">1.编程语言</font>
 * [Java](src/main/scala/libin/program/_01_java)  
-
 * [Scala](src/main/scala/libin/program/_02_scala)
-
 * [Python](src/main/scala/libin/program/_03_python)
 
-## 2.Linux&Shell
+##
+##### 2.Linux&Shell
 * [Shell](src/main/scala/libin/program/_04_shell)
 
 ## 3.Sql语句
