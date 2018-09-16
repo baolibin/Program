@@ -2,6 +2,8 @@
     基于JVM、面向对象、函数式编程。
 - [简介-Wikipedia](https://en.wikipedia.org/wiki/Scala_(programming_language))
 - [官网](https://www.scala-lang.org/)
+- <a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" target="_blank">简介-Wikipedia</a>
+- <a href="https://www.scala-lang.org/" target="_blank">官网</a>
 ---
 ##### 1. 基础概述
     用它就会爱上它～
