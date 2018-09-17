@@ -1,5 +1,6 @@
 package libin.utils;
 
+
 /**
  * Copyright (c) 2018/09/17. xixi Inc. All Rights Reserved.
  * Authors: libin <2578858653@qq.com>
@@ -7,4 +8,7 @@ package libin.utils;
  * Purpose :
  */
 public class LogUtils {
+    public static void main(String[] args) {
+
+    }
 }
