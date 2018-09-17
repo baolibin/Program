@@ -6,7 +6,7 @@
     Maven的一大功能就是管理项目依赖，为了能自动化解析任何一个Java构件(jar、war等)，就需要将它们唯一标识，这就是坐标，依赖管理的底层基础。
 ##
     Maven坐标元素如下：
-    1.groupId(必须定义)：定义当前Maven项目隶属的时间项目(模块在哪一个项目下)。
+    1.groupId(必须定义)：定义当前Maven项目隶属实际项目(模块在哪一个项目下)。
     2.artifactId(必须定义)：定义实际项目中的一个模块Module。推荐使用实际项目名作为前缀。
     3.version(必须定义)：定义Maven项目当前所处的版本。
     4.packaging(可选，默认为jar)：定义Maven项目的打包方式(jar、war)。
@@ -55,4 +55,9 @@
 
 ##### 6.Archetype
 
+---
+## Maven常用插件
+* maven-thrift-plugin ：该插件可以让我们在项目中使用编译.thrift文件。  
+* maven-compiler-plugin：指定Maven编译时的jdk版本和字符集。  
+* maven-source-plugin：对Maven工程的源码打包。  
 
