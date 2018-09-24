@@ -5,6 +5,7 @@
 ##### 1. 面向对象
 
 ##### 2. 异常处理
+* [异常处理](exception)
 
 ##### 3. 集合类
 * [Java集合操作](collection)
@@ -16,6 +17,7 @@
 ##### 6. IO
 
 ##### 7. 枚举
+* [枚举](enumeration)
 
 ##### 8. 常用类库
 * [时间类操作](utils/TimeUtils.java)
