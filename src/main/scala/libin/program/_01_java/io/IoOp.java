@@ -21,7 +21,9 @@ public class IoOp {
         System.out.println(File.pathSeparator);  // 冒号
         System.out.println(File.separator);  // 右斜线
         // this.DirCreate("test");
-        this.listFile();
+        // this.listFile();
+        // this.isDir("test");
+        this.printFile(new File("E:\\tmp"));
     }
 
     /**
@@ -72,4 +74,30 @@ public class IoOp {
         }
     }
 
+    /**
+     * 判断是否为文件或目录
+     */
+    private void isDir(String fileName) {
+        File file = new File("e:\\tmp\\" + fileName);
+        System.out.println(file.isDirectory());  // 是否为目录
+        System.out.println(file.isFile());  // 是否为文件
+    }
+
+    /**
+     * 列出指定目录下的所有文件
+     */
+    private void printFile(File file) {
+        if (file.exists()) {
+            if (file.isDirectory()) {
+                File[] files = file.listFiles();
+                if (files.length > 0) {
+                    for (int i = 0; i < files.length; i++) {
+                        printFile(files[i]);
+                    }
+                }
+            } else {
+                System.out.println(file);
+            }
+        }
+    }
 }
