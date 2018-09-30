@@ -27,6 +27,7 @@
 ##
 ##### 6.项目构建工具
 * [Maven](src/main/scala/libin/program/_08_maven)
+* Sbt
 
 ##
 ##### 7.Java虚拟机
