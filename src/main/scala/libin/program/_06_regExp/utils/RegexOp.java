@@ -1,4 +1,4 @@
-package libin.program._06_regExp;
+package libin.program._06_regExp.utils;
 
 /**
  * Copyright (c) 2018/09/21. xixi Inc. All Rights Reserved.
