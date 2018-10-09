@@ -12,6 +12,7 @@ public class MatchOp {
 
         // 自然常数e为底的指数函数
         System.out.println(Math.exp(1));
-
+        // 10为底的指数函数
+        System.out.println(Math.log10(10));
     }
 }
