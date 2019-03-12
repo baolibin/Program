@@ -42,6 +42,7 @@
 
 ##
 ##### 10.加解密
+* [加密算法](src/main/scala/libin/doc/Encrypt.md)
 
 ##
 ##### 11.打日志
