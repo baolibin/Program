@@ -1,4 +1,4 @@
-package com.libin.gather;
+package com.libin.gather.arraylist;
 
 /**
  * Copyright (c) 2020/03/04. xixi Inc. All Rights Reserved.
