@@ -4,7 +4,6 @@
 ##
 ##### <font color="blue"> 1.编程语言 </font>
 * [Java](src/main/scala/libin/program/_01_java)  
-* [Java学习笔记](StudyJava/Java笔记目录.md)  
 * [Scala](src/main/scala/libin/program/_02_scala)
 * [Python](src/main/scala/libin/program/_03_python)
 
