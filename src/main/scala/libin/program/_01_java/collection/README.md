@@ -46,7 +46,7 @@
     TreeSet只能存放引用类型，存储元素不重复但有序，当存入自定义引用类型时候就要考虑元素不重复的特性，必须实现Comparable接口，在TreeSet内部会自动调用存储的引用类型对象实现的Comparable中的compareTo方法，不实现会报错。
     当把一个对象加入TreeSet集合中时，TreeSet调用该对象的compareTo(Object obj)方法与容器中的其他对象比较大小，然后根据红黑树算法决定它的存储位置。
     TreeSet是基于TreeMap实现的，TreeSet中元素支持2中排序算法，自然排序和自定义排序。
-##### 3.HashSet(类)
+##### 3.HashSet(类)  [Java集合类-HashSet](hashset/HashSet.md)  
     HashSet是基于HashMap来实现的，使用了HashMap的key来实现各种特性。基于Hash表实现。
 ##### 4.LinkedHashSet(类)
     LinkedHashSet继承于 HashSet，基于 LinkedHashMap 来实现的。
