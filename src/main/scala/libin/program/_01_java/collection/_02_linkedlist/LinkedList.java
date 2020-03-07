@@ -1,4 +1,4 @@
-package libin.program._01_java.collection.linkedlist;
+package libin.program._01_java.collection._02_linkedlist;
 
 /**
  * Copyright (c) 2020/03/06. xixi Inc. All Rights Reserved.

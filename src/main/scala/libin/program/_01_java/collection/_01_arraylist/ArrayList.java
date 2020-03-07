@@ -1,4 +1,4 @@
-package libin.program._01_java.collection.arraylist;
+package libin.program._01_java.collection._01_arraylist;
 
 /**
  * Copyright (c) 2020/03/04. xixi Inc. All Rights Reserved.
