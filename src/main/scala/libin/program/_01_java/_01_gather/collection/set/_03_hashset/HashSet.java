@@ -1,4 +1,4 @@
-package libin.program._01_java._01_gather.collection._03_hashset;
+package libin.program._01_java._01_gather.collection.set._03_hashset;
 
 /**
  * Copyright (c) 2020/03/07. xixi Inc. All Rights Reserved.

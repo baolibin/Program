@@ -46,22 +46,22 @@
     TreeSet只能存放引用类型，存储元素不重复但有序，当存入自定义引用类型时候就要考虑元素不重复的特性，必须实现Comparable接口，在TreeSet内部会自动调用存储的引用类型对象实现的Comparable中的compareTo方法，不实现会报错。
     当把一个对象加入TreeSet集合中时，TreeSet调用该对象的compareTo(Object obj)方法与容器中的其他对象比较大小，然后根据红黑树算法决定它的存储位置。
     TreeSet是基于TreeMap实现的，TreeSet中元素支持2中排序算法，自然排序和自定义排序。
-##### 3.HashSet(类)  [Java集合类-HashSet](_03_hashset/HashSet.md)  
+##### 3.HashSet(类)  [Java集合类-HashSet](collection/set/_03_hashset/HashSet.md)  
     HashSet是基于HashMap来实现的，使用了HashMap的key来实现各种特性。基于Hash表实现。
-##### 4.LinkedHashSet(类) [Java集合类-LinkedHashSet](_04_linkedhashset/LinkedHashSet.md)  
+##### 4.LinkedHashSet(类) [Java集合类-LinkedHashSet](collection/set/_04_linkedhashset/LinkedHashSet.md)  
     LinkedHashSet继承于 HashSet，基于 LinkedHashMap 来实现的。
     与 HashSet 的不同之处在于，除了哈希表，LinkedHashSet 维护着一个运行于所有条目的双向列表。此链接列表定义了迭代顺序，该迭代顺序可为插入顺序或是访问顺序。
 ##### 5.Vector(类)
     Vector作为List的另外一个典型实现类，完全支持List的全部功能，Vector类也封装了一个动态的，允许在分配的Object[]数组，Vector是一个比较古老的集合，JDK1.0就已经存在，建议尽量不要使用这个集合，Vector与ArrayList的主要是区别是，Vector是线程安全的，但是性能比ArrayList要低。
 ##### 6.Stack(类)
     stack是在Java.util这个包里，继承Vector类。
-##### 7.ArrayList(类) [Java集合类-ArrayList](_01_arraylist/ArrayList.md)  
+##### 7.ArrayList(类) [Java集合类-ArrayList](collection/list/_01_arraylist/ArrayList.md)  
     ArrayList是基于数组实现的，是一个动态数组，其容量能自动增长，类似于C语言中的动态申请内存，动态增长内存。
     ArrayList不是线程安全的，只能用在单线程环境下，多线程环境下可以考虑用Collections.synchronizedList(List l)函数返回一个线程安全的ArrayList类，也可以使用concurrent并发包下的CopyOnWriteArrayList类。
     ArrayList实现了Serializable接口，因此它支持序列化，能够通过序列化传输，实现了RandomAccess接口，支持快速随机访问，实际上就是通过下标序号进行快速访问，实现了Cloneable接口，能被克隆。
     每个ArrayList实例都有一个容量，该容量是指用来存储列表元素的数组的大小。它总是至少等于列表的大小。随着向ArrayList中不断添加元素，其容量也自动增长。自动增长会带来数据向新数组的重新拷贝，因此，如果可预知数据量的多少，可在构造ArrayList时指定其容量。在添加大量元素前，应用程序也可以使用ensureCapacity操作来增加ArrayList实例的容量，这可以减少递增式再分配的数量。 
     注意，此实现不是同步的。如果多个线程同时访问一个ArrayList实例，而其中至少一个线程从结构上修改了列表，那么它必须保持外部同步。
-##### 8.LinkedList(类) [Java集合类-LinkedList](_02_linkedlist/LinkedList.md)  
+##### 8.LinkedList(类) [Java集合类-LinkedList](collection/list/_02_linkedlist/LinkedList.md)  
     LinkedList底层的数据结构是基于双向循环链表。
 ##### 9.PriorityQueue(类)
     PriorityQueue内部其实就是采用最小堆的算法来管理的。
