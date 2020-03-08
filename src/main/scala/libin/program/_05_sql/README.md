@@ -1,6 +1,10 @@
 # Sql
 - [简介-Wikipedia](https://en.wikipedia.org/wiki/SQL)
 ---
+
+##### leetcode
+   * [leetcode](_11_leetcode)
+
 ##### 1.基本用法语句 
    * [基本用法语句](_01_baseQuery/README.md)
 
