@@ -6,5 +6,5 @@ package libin.program._01_java._01_gather.map._08_linkedhashmap;
  * <p>
  * Purpose :
  */
-public class LinkedHashMap {
+public class LinkedHashMap<K, V> extends java.util.LinkedHashMap<K, V> {
 }

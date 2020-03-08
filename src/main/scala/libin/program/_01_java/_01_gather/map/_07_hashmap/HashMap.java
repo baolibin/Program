@@ -6,5 +6,8 @@ package libin.program._01_java._01_gather.map._07_hashmap;
  * <p>
  * Purpose :
  */
-public class HashMap {
+public class HashMap<K,V> extends java.util.HashMap<K,V> {
+    public static void main(String[] args){
+
+    }
 }

@@ -69,18 +69,18 @@
 ##### 10.SortedMap(接口)
     SortedMap也是一个接口，继承于Map接口，Sorted表示它是一个有序的键值映射。
     SortedMap的排序方式有两种：自然排序和指定比较器排序。插入有序的SortedMap的所有元素都必须实现Comparable接口（或被指定的比较器所接受）。
-##### 11.TreeMap(类)
+##### 11.TreeMap(类) [Java集合类-TreeHashMap](map/_10_treemap/TreeMap.md)  
     TreeMap的结构是红黑树又称红-黑二叉树，它首先是一颗二叉树，它具体二叉树所有的特性。同时红黑树更是一颗自平衡的排序二叉树。
     get put remove等方法的时间复杂度为log(n)。
-##### 12.HashMap(类)
+##### 12.HashMap(类) [Java集合类-HashMap](map/_07_hashmap/HashMap.md)  
     HashMap 是 Map 的一个实现类，它代表的是一种键值对的数据存储形式。Key 不允许重复出现，Value 随意。jdk 8 之前，其内部是由数组+单链表来实现的，而 jdk 8 对于链表长度超过 8 的链表将转储为红黑树。
     哈希表（hash table）也叫散列表，是一种非常重要的数据结构，应用场景及其丰富，许多缓存技术（比如memcached）的核心其实就是在内存中维护一张大的哈希表。
-##### 13.Hashtable(类)
+##### 13.Hashtable(类) [Java集合类-HashTable](map/_11_hashtable/HashTable.md)  
     和HashMap一样，Hashtable 也是一个散列表，它存储的内容是键值对(key-value)映射。
     Hashtable 继承于Dictionary，实现了Map、Cloneable、java.io.Serializable接口。
     Hashtable 的函数都是同步的，这意味着它是线程安全的。它的key、value都不可以为null。此外，Hashtable中的映射不是有序的。
     HashTable因为内部是采用synchronized来保证线程安全的。
-##### 14.LinkedHashMap(类)
+##### 14.LinkedHashMap(类) [Java集合类-LinkedHashMap](map/_08_linkedhashmap/LinkedHashMap.md)  
     LinkedHashMap 是 Map 接口的哈希表和双向链表实现。
     LinkedHashMap 实现与 HashMap 的不同之处在于，LinkedHashMap 维护着一个运行于所有条目的双重链接列表。此链接列表定义了迭代顺序，该迭代顺序可以是插入顺序或者是访问顺序。此实现不是同步的。
 ##### 15.WeakHashMap(类)
@@ -99,7 +99,7 @@
     IdentityHashMap比较key时是“引用相等”而HashMap是“对象相等”；
     对于k1和k2，当k1==k2时，IdentityHashMap认为两个key相等；
     而HashMap只有在k1.equals(k2) == true 时才会认为两个key相等。
-##### 18.currentHashMap(类)
+##### 18.currentHashMap(类) [Java集合类-CurrentHashMap](map/_09_currenthashmap/CurrentHashMap.md)  
     ConcurrentHashMap是Java5中新增加的一个线程安全的Map集合，可以用来替代HashTable。使用了多个锁代替HashTable中的单个锁，也就是锁分离技术（Lock Stripping）.
 ##### 19.NavigableMap(接口)
     NavigableMap 增加了一些方法用于TreeMap。

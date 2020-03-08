@@ -6,5 +6,5 @@ package libin.program._01_java._01_gather.map._09_currenthashmap;
  * <p>
  * Purpose :
  */
-public class CurrentHashMap {
+public class CurrentHashMap<K, V> extends java.util.concurrent.ConcurrentHashMap<K, V> {
 }
