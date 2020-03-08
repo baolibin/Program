@@ -41,17 +41,17 @@
 ##### 1.SortedSet(接口)
     位于包java.util下面。是java.util.Set的子接口，实现类为TreeMap。
     Set接口本身不具备排序功能，提供SortedMap接口可以提供排序的接口，同时提供可以获取特点位置元素的方法。
-##### 2.TreeSet(类)
+##### 2.TreeSet(类)  [Java集合类-TreeSet](collection/set/_06_treeset/TreeSet.md)  
     TreeSet继承了AbstractSet抽象类，实现了NavigableSet接口。
     TreeSet只能存放引用类型，存储元素不重复但有序，当存入自定义引用类型时候就要考虑元素不重复的特性，必须实现Comparable接口，在TreeSet内部会自动调用存储的引用类型对象实现的Comparable中的compareTo方法，不实现会报错。
     当把一个对象加入TreeSet集合中时，TreeSet调用该对象的compareTo(Object obj)方法与容器中的其他对象比较大小，然后根据红黑树算法决定它的存储位置。
     TreeSet是基于TreeMap实现的，TreeSet中元素支持2中排序算法，自然排序和自定义排序。
-##### 3.HashSet(类)  [Java集合类-HashSet](collection/set/_03_hashset/HashSet.md)  
+##### 3.HashSet(类)  [Java集合类-HashSet](collection/set/_04_hashset/HashSet.md)  
     HashSet是基于HashMap来实现的，使用了HashMap的key来实现各种特性。基于Hash表实现。
-##### 4.LinkedHashSet(类) [Java集合类-LinkedHashSet](collection/set/_04_linkedhashset/LinkedHashSet.md)  
+##### 4.LinkedHashSet(类) [Java集合类-LinkedHashSet](collection/set/_05_linkedhashset/LinkedHashSet.md)  
     LinkedHashSet继承于 HashSet，基于 LinkedHashMap 来实现的。
     与 HashSet 的不同之处在于，除了哈希表，LinkedHashSet 维护着一个运行于所有条目的双向列表。此链接列表定义了迭代顺序，该迭代顺序可为插入顺序或是访问顺序。
-##### 5.Vector(类)
+##### 5.Vector(类) [Java集合类-Vector](collection/list/_03_vector/Vector.md)  
     Vector作为List的另外一个典型实现类，完全支持List的全部功能，Vector类也封装了一个动态的，允许在分配的Object[]数组，Vector是一个比较古老的集合，JDK1.0就已经存在，建议尽量不要使用这个集合，Vector与ArrayList的主要是区别是，Vector是线程安全的，但是性能比ArrayList要低。
 ##### 6.Stack(类)
     stack是在Java.util这个包里，继承Vector类。
@@ -107,3 +107,7 @@
     可以按照键的升序或降序访问和遍历 NavigableMap。descendingMap 方法返回映射的一个视图，该视图表示的所有关系方法和方向方法都是逆向的。升序操作和视图的性能很可能比降序操作和视图的性能要好。subMap、headMap 和 tailMap 方法与名称相似的 SortedMap 方法的不同之处在于：可以接受用于描述是否包括（或不包括）下边界和上边界的附加参数。任何 NavigableMap 的 Submap 必须实现 NavigableMap 接口。
     此外，此接口还定义了 firstEntry、pollFirstEntry、lastEntry 和 pollLastEntry 方法，它们返回和/或移除最小和最大的映射关系（如果存在），否则返回 null。
     subMap(K, K)、headMap(K) 和 tailMap(K) 方法被指定为返回 SortedMap，以允许现有 SortedMap 实现能相容地改进为实现 NavigableMap，但鼓励此接口的扩展和实现重写这些方法以返回 NavigableMap。类似地，可以重写 SortedMap.keySet() 以返回 NavigableSet。
+
+##### 面试题
+   * [面试题](面试题.md)
+

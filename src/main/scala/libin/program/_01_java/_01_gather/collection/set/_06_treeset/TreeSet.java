@@ -1,4 +1,4 @@
-package libin.program._01_java._01_gather.collection.set._05_treeset;
+package libin.program._01_java._01_gather.collection.set._06_treeset;
 
 /**
  * Copyright (c) 2020/03/08. xixi Inc. All Rights Reserved.
@@ -9,6 +9,6 @@ package libin.program._01_java._01_gather.collection.set._05_treeset;
  */
 public class TreeSet<E> extends java.util.TreeSet {
     public static void main(String[] args){
-
+        java.util.TreeSet<String> treeSet = new java.util.TreeSet<>();
     }
 }
