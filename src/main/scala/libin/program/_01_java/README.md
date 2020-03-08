@@ -9,7 +9,7 @@
 * [异常处理](exception)
 
 ##### 3. 集合类
-* [Java集合操作](_01_gather/collection)
+* [Java集合操作](_01_gather)
 
 ##### 4. 多线程
 * [多线程](thread)
