@@ -48,7 +48,7 @@
     TreeSet是基于TreeMap实现的，TreeSet中元素支持2中排序算法，自然排序和自定义排序。
 ##### 3.HashSet(类)  [Java集合类-HashSet](_03_hashset/HashSet.md)  
     HashSet是基于HashMap来实现的，使用了HashMap的key来实现各种特性。基于Hash表实现。
-##### 4.LinkedHashSet(类)
+##### 4.LinkedHashSet(类) [Java集合类-LinkedHashSet](_04_linkedhashset/LinkedHashSet.md)  
     LinkedHashSet继承于 HashSet，基于 LinkedHashMap 来实现的。
     与 HashSet 的不同之处在于，除了哈希表，LinkedHashSet 维护着一个运行于所有条目的双向列表。此链接列表定义了迭代顺序，该迭代顺序可为插入顺序或是访问顺序。
 ##### 5.Vector(类)
