@@ -13,7 +13,8 @@
 
 ##
 ##### 3.Sql语句
-* [Sql](src/main/scala/libin/program/_05_sql)
+* [Sql 基础](src/main/scala/libin/program/_05_sql)
+* [Sql LeetCode](src/main/scala/libin/program/_11_designPattern)
 
 ##
 ##### 4.正则表达式
