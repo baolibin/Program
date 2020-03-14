@@ -14,7 +14,7 @@
 ##
 ##### 3.Sql语句
 * [Sql 基础](src/main/scala/libin/program/_05_sql)
-* [Sql LeetCode](src/main/scala/libin/program/_11_designPattern)
+* [Sql LeetCode](src/main/scala/libin/program/_05_sql/_11_leetcode)
 
 ##
 ##### 4.正则表达式
