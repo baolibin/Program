@@ -1,4 +1,4 @@
-package libin.program._02_scala.implicitDemo
+package libin.program._02_scala._08_implicitDemo
 
 /**
   * Copyright (c) 2018/9/9. xixi Inc. All Rights Reserved.

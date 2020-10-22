@@ -1,6 +1,6 @@
-package libin.program._02_scala.classOp
+package libin.program._02_scala._04_classOp
 
-import libin.program._02_scala.classOp.printImpl.Stu
+import libin.program._02_scala._04_classOp.printImpl.Stu
 
 import scala.reflect.ClassTag
 

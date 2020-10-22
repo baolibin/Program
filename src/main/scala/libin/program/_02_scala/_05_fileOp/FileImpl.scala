@@ -1,4 +1,4 @@
-package libin.program._02_scala.fileOp
+package libin.program._02_scala._05_fileOp
 
 /**
   * Copyright (c) 2018/9/10. xixi Inc. All Rights Reserved.

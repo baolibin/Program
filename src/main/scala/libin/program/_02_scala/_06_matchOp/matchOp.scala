@@ -1,4 +1,4 @@
-package libin.program._02_scala.matchOp
+package libin.program._02_scala._06_matchOp
 
 /**
   * Copyright (c) 2018/09/12. xixi Inc. All Rights Reserved.

@@ -1,4 +1,4 @@
-package libin.program._02_scala.gatherOp
+package libin.program._02_scala._03_gatherOp
 
 import scala.collection.mutable
 

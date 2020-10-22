@@ -1,4 +1,4 @@
-package libin.program._02_scala.highOrder
+package libin.program._02_scala._13_highOrder
 
 import java.awt.event.{ActionEvent, ActionListener}
 

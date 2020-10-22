@@ -1,4 +1,4 @@
-package libin.program._02_scala.funcOp
+package libin.program._02_scala._02_funcOp
 
 /**
   * Copyright (c) 2018/9/11. xixi Inc. All Rights Reserved.

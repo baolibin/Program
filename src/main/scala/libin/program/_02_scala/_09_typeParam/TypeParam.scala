@@ -1,4 +1,4 @@
-package libin.program._02_scala.typeParam
+package libin.program._02_scala._09_typeParam
 
 /**
   * Copyright (c) 2018/9/11. xixi Inc. All Rights Reserved.

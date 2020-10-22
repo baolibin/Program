@@ -1,4 +1,4 @@
-package libin.program._02_scala.operatorOp
+package libin.program._02_scala._07_operatorOp
 
 /**
   * Copyright (c) 2018/09/13. xixi Inc. All Rights Reserved.

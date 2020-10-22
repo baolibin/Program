@@ -1,6 +1,6 @@
-package libin.program._02_scala.implicitDemo
+package libin.program._02_scala._08_implicitDemo
 
-import libin.program._02_scala.implicitDemo.ImplicitBase.MyPerson
+import libin.program._02_scala._08_implicitDemo.ImplicitBase.MyPerson
 
 
 /**

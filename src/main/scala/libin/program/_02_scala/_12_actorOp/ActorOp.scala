@@ -1,4 +1,4 @@
-package libin.program._02_scala.actorOp
+package libin.program._02_scala._12_actorOp
 
 import scala.actors.Actor
 // import akka.actor.Actor

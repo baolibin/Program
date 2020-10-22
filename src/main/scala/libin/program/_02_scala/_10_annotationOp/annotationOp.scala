@@ -1,4 +1,4 @@
-package libin.program._02_scala.annotationOp
+package libin.program._02_scala._10_annotationOp
 
 import com.sun.istack.internal.NotNull
 

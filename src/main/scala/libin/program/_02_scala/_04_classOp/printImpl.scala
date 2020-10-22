@@ -1,4 +1,4 @@
-package libin.program._02_scala.classOp
+package libin.program._02_scala._04_classOp
 
 import scala.reflect.ClassTag
 
