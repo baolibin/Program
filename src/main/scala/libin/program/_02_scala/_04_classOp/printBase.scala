@@ -10,14 +10,28 @@ import scala.reflect.ClassTag
   * <p>
   * Purpose : 
   */
-class printBase {
+class printBase extends Base {
 
-  def printInfo[T: ClassTag](t: T): Unit = {
-    println(t)
-    t match {
-      case stu: Stu => println(stu.name)
-      case _ => println("Null")
+    def printInfo[T: ClassTag](t: T): Unit = {
+        println(t)
+        t match {
+            case stu: Stu => println(stu.name)
+            case _ => println("Null")
+        }
     }
-  }
 
 }
+
+trait Base {
+    def printInfo[T: ClassTag](t: T)
+}
+
+object printBase {
+    def main(args: Array[String]): Unit = {
+        def obj: printBase = new printBase()
+
+        obj.printInfo("hello")
+    }
+
+}
+
