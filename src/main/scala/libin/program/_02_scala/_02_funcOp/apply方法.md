@@ -4,3 +4,8 @@
     通常会类的伴生对象中定义apply方法，当遇到类名(参数1,…参数n)时apply方法会被调用。
     在创建伴生对象或伴生类的对象时，通常不会使用new class/class() 的方式，而是直接使用 class()，隐式的调用伴生对象的 apply 方法，这样会让对象创建的更加简洁。
 
+    
+    apply和unapply 属于Scala的一种语法糖,在class的伴生对象里面定义，apply方法的主要作用可以像调用方法一样创建对象，
+    而unapply方法主要作用是和match一起使用。
+    unapply相当于apply的逆过程，对数据进行解析，主要作用是和match一起使用。
+
