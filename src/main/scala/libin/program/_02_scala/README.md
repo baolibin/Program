@@ -9,6 +9,7 @@
 
 ##### 2. 函数、数组、映射、元组、列表
 * [函数](_02_funcOp)
+    - [1、apply和unapply](_02_funcOp/apply方法.md)
 
 ##### 3. 集合
 * [集合](_03_gatherOp)
@@ -30,6 +31,9 @@
 
 ##### 9. 类型参数
 * [类型参数](_09_typeParam)
+    - [1、ClassTag](_09_typeParam/ClassTag.md)
+    - [2、上界和下界](_09_typeParam/上界下界.md)
+    - [3、协变和逆变](_09_typeParam/协变和逆变.md)
 
 ##### 10. 注解
 * [注解](_10_annotationOp)
